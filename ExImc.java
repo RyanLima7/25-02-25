@@ -2,12 +2,13 @@ package projeto01;
 
 import java.util.Scanner;
 
-public class imc {
+public class ExImc {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		Scanner sc = new Scanner(System.in);
+		//Código para ver seu Imc
 
 		System.out.print("Digite o seu peso por favor: ");
 		double imc = sc.nextDouble();
